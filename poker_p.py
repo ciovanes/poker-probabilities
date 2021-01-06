@@ -1,5 +1,5 @@
 """ 
-Created on Wed Jan 6 21:14:36 2021
+Created on Wed Jan 6 22:47:36 2021
 @author: spanishkukli
 @summary: The probabilities that you get the following poker plays in x attemps and x number of cards in the deck (max. 52 cards).
 """
