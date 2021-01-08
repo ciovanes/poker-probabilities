@@ -160,6 +160,7 @@ def plays_p(hands):
         plays["straight flush"] += straight_flush(values, suits)
         plays["royal flush"] += royal_flush(values, suits)
     #Print P
+    print("-" * 50)
     for play in plays.keys():
         P = plays[play] / attempts
         print(f"P: {P}, to get {play} in {attempts} attempts.")
